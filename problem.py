@@ -61,3 +61,10 @@ Box: 6
 Box: 8
 Box: 9
 Box: 10
+
+box = 1
+while box <= 10:
+  if
+
+
+
