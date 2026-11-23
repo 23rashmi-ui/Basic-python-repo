@@ -42,3 +42,22 @@ output:This is a multiline commments let's check this line what will be print
 #The Goal: Practice managing a loop variable while using continue inside a while loop without causing an infinite loop. 
  #• Scenario: A factory conveyor belt moves 10 boxes sequentially, labeled 1 to 10. However, boxes 4 and 7 fail the quality check. The robot arm needs to scan all boxes but must skip processing the broken ones.
   #• The Task: Use a while loop to count from box 1 to 10. If the current box number is 4 or 7, use continue to skip processing it. 
+n = int(input("Enter the box num: "))
+
+while n <= 10:
+    if n == 4 or n == 7:
+        n += 1
+        continue
+
+    print("Box:", n)
+    n += 1
+output:
+Enter the box num: 1
+Box: 1
+Box: 2
+Box: 3
+Box: 5
+Box: 6
+Box: 8
+Box: 9
+Box: 10
