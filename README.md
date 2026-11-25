@@ -160,8 +160,8 @@ Dictionaries are used to store data in key:value pairs. Each key in a dictionary
 Output
 ### github
 ### For
-#Function:
-##three types of function 
+# Function:
+## three types of function 
 (1) Built-in function 
 (2) From a module function
 (3) User-define function
