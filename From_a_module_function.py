@@ -11,3 +11,13 @@ output:7.0
 5
 4
 0.6965436056812466
+#write is_even(n) that print Even or odd. call it with 8 and 15.
+def is_even(n):
+  if n%2 == 0:
+    print(n, "is even")
+  else:
+    print(n,"is odd")
+is_even(8)
+is_even(15)
+output: 8 is even
+15 is odd
