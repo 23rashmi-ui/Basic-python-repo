@@ -11,25 +11,25 @@ output:7.0
 5
 4
 0.6965436056812466
-#write school_name() that print your school or college name.call it 3 times.
+#1 write school_name() that print your school or college name.call it 3 times.
 def school_name():
     print("nitttr")
 school_name()
 output: nitttr
-#Write square(n) that square of n.call it with 4 and 9.
+#2 Write square(n) that square of n.call it with 4 and 9.
 def square(n):
     print(n*n)
 square(4)
 square(9)
 output: 16
 81
-#Write rectangle_area(length,width) that prints area. call it with 5 and 3.
+#3 Write rectangle_area(length,width) that prints area. call it with 5 and 3.
 def rectangle_area(length,width):
     area = length*width
     print(area)
 rectangle_area(5,3)    
 output:15
-#write is_even(n) that print Even or odd. call it with 8 and 15.
+#4 write is_even(n) that print Even or odd. call it with 8 and 15.
 def is_even(n):
   if n%2 == 0:
     print(n, "is even")
