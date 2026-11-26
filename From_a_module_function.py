@@ -11,6 +11,12 @@ output:7.0
 5
 4
 0.6965436056812466
+#write school_name() that print your school or college name.call it 3 times.
+def school_name():
+    print("nitttr")
+school_name()
+output: nitttr
+
 #write is_even(n) that print Even or odd. call it with 8 and 15.
 def is_even(n):
   if n%2 == 0:
