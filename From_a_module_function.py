@@ -16,7 +16,13 @@ def school_name():
     print("nitttr")
 school_name()
 output: nitttr
-
+#Write square(n) that square of n.call it with 4 and 9.
+def square(n):
+    print(n*n)
+square(4)
+square(9)
+output: 16
+81
 #write is_even(n) that print Even or odd. call it with 8 and 15.
 def is_even(n):
   if n%2 == 0:
