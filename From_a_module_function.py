@@ -23,6 +23,12 @@ square(4)
 square(9)
 output: 16
 81
+#Write rectangle_area(length,width) that prints area. call it with 5 and 3.
+def rectangle_area(length,width):
+    area = length*width
+    print(area)
+rectangle_area(5,3)    
+output:15
 #write is_even(n) that print Even or odd. call it with 8 and 15.
 def is_even(n):
   if n%2 == 0:
