@@ -11,6 +11,12 @@ smallest number: 44
 smallest number: 34
 smallest number: 5
 largest number: 70
-  
+   largest = n[0]
+ for i in n:
+   if i > largest:
+     largest = i 
+print("largest number:", largest)
+output: largest number: 70
 #2. find the common number from 2 lists.
+
 #3. Find the number of occurrences of a given number without using inbuilt functions
