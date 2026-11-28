@@ -36,3 +36,14 @@ common number: 23
    
    
 #3. Find the number of occurrences of a given number without using inbuilt functions
+n = [59, 21, 44, 34, 5, 70, 70, 23, 70, 70]
+num = int(input("Enter the to count:"))
+count = 0 
+for i in n:
+  if i==num:
+    count+=1
+print("number of occurrences:",count)
+output:Enter the to count:70
+number of occurrences: 4
+Enter the to count:9
+number of occurrences: 0
